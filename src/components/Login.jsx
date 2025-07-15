@@ -28,10 +28,10 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col items-center justify-center px-4">
-      <div className="backdrop-blur-3xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 max-w-md w-full text-white">
+    <div className="min-h-screen w-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black flex flex-col items-center justify-center px-4">
+      <div className="backdrop-blur-3xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl p-10 mr-5 w-full max-w-sm text-white">
         <h2 className="text-2xl font-semibold mb-6 text-center drop-shadow-lg">Login to your account</h2>
-        <form onSubmit={handleSubmit(loginh)} className="space-y-3">
+        <form onSubmit={handleSubmit(loginh)} className="space-y-3 flex flex-col items-center justify-center mx-auto">
           <div>
             <input
               type="email"
@@ -50,7 +50,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="py-2 px-5 cursor-pointer mt-1 mx-35 rounded-lg bg-purple-900 hover:bg-purple-700 transition text-white font-semibold shadow-lg"
+            className="py-2 px-5 cursor-pointer mt-1 mx-auto rounded-lg bg-purple-900 hover:bg-purple-700 transition text-white font-semibold shadow-lg"
           >
             Login
           </button>

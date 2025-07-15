@@ -25,8 +25,8 @@ const Completed = () => {
   };
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6 flex flex-col items-center justify-center'>
-      <div className='max-w-xl mx-auto bg-white shadow-xl rounded-2xl p-6'>
+    <div className='min-h-screen w-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6 flex flex-col items-center justify-center'>
+      <div className='max-w-sm w-full mx-auto bg-white shadow-xl rounded-2xl p-6'>
         <h2 className='text-xl font-bold text-blue-900 text-center mb-4'>
           Completed Tasks ✅
         </h2>

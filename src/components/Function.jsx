@@ -137,7 +137,7 @@ const Function = () => {
   };
 
   return (
-    <div className='min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6 flex flex-col items-center justify-center'>
+    <div className='min-h-screen w-screen bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6 flex flex-col items-center justify-center'>
          <button
             onClick={handlelogout}
             className='px-4 py-2 bg-white rounded-lg text-blue-900 text-md font-semibold mb-2'
