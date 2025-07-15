@@ -25,7 +25,7 @@ const Completed = () => {
   };
 
   return (
-    <div className='min-h-screen w-screen right-0 bottom-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6 flex flex-col items-center justify-center'>
+    <div className='min-h-screen w-full overflow-x-hidden overflow-y-auto right-0 bottom-0 bg-gradient-to-br from-gray-900 via-gray-800 to-black p-6 flex flex-col items-center justify-center'>
       <div className='max-w-sm w-full mx-auto bg-white shadow-xl rounded-2xl p-6'>
         <h2 className='text-xl font-bold text-blue-900 text-center mb-4'>
           Completed Tasks ✅
